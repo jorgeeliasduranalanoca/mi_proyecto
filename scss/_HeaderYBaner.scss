@@ -1,0 +1,52 @@
+   /*--------------------navegador baner e incio de pagina ----------------------*/
+
+
+
+   .inicio{
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
+    color: black ;
+    display:inline-block;
+    font-size: 40px;
+   
+    
+
+}
+.baner{ 
+background-image: url(../images/japonCastillo.jpg) ;
+margin: 15px  ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 60px;
+font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
+color:#ffffff ;
+font-size: 55px;
+text-shadow: 2px 3px 2px #555757 ;
+text-align: center;
+}
+
+.ayuda{
+
+    border-radius: 30px;
+    display:inline-block;
+    height: 30px;
+    width: 40px;
+}
+
+.textnav{
+    text-align: left;
+}
+
+.sociales{
+    height: 25px;
+    width: 27px;
+    background-color:#f8f9fa;
+    margin:5px 5px -1px 5px;
+    font-size: 30px;
+    
+}
+
+
+
+
+/*----------------------- fin de navegador baner e incio de pagina --------------- */
