@@ -3,19 +3,18 @@
 
 
    .inicio{
-    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
+    font-family: 'Bangers', cursive;
     color: black ;
     display:inline-block;
-    font-size: 40px;
-   
-   .fondo {
-       background-color: rgb(248, 203, 118);
-   }
+    font-size: 70px;
+   display: flexbox;
+   margin-top:5px;
+    
 
 }
 .baner{ 
 background-image: url(../images/japonCastillo.jpg) ;
-margin: 15px auto 15px auto  ;
+margin: 0px auto 0px auto  ;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -30,9 +29,9 @@ text-align: center;
 .ayuda{
 
     border-radius: 30px;
-    display:inline-block;
-    height: 30px;
-    width: 40px;
+    display:flexbox;
+    height: 100px;
+    width: 100px;
 }
 
 .textnav{
