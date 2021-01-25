@@ -185,7 +185,9 @@ tr td.tablaindex {
   padding: 10px;
   border: solid 1px #b1b1b1; }
 
-/*------------------------------ fin de estilo de index-------------------------*/
+/*------------------------------ fin de estilo de index
+
+-------------------------*/
 /*--------------------------------- estilo de contactos-------------------------*/
 tr td.tablecontacto {
   background-color: #e2ac47; }
@@ -230,7 +232,9 @@ tr td.tablecontacto {
   width: 500px;
   display: inline-block; }
 
-/*-------------------------------fin estilo de contactos-------------------------*/
+/*-------------------------------fin estilo de contactos-
+
+------------------------*/
 /*-----------------------------inicio de estilo de About us-------------------------*/
 .borderTitulo {
   margin: 15px;

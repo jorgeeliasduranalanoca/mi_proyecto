@@ -1,0 +1,156 @@
+/*--------------------------------- estilo de index-------------------------------- */
+
+
+.table{
+    margin:15px;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 35px;
+    color: #525552;
+    text-shadow:1px 1px  black ;
+    text-align: center;
+    
+    }
+    .subtitulo{
+        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 35px;
+        text-align: center;
+        display: block;
+        padding: 5px;
+    }
+    .parrafovideo {
+        font-family: Candara, Calibri, "Segoe", "Segoe UI", Optima, Arial, sans-serif; font-size: 20px;
+        padding: 15px;
+        color: black;
+        
+    }
+    h3{ 
+        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 25px;
+        color: #272727;
+    
+    }
+    
+   
+.bordesyhover{
+    border:solid 1px black ;
+    margin:0px ;
+    padding: 0px ;
+}
+     
+    .imgDeViajes{
+        width: 100%;
+        height:200px ;
+        border-radius: 15px;
+        transition: 0,5s;
+        
+        cursor:pointer;
+    }
+    .imgDeViajes:hover{
+        width: 100% ;
+        height: 207px ;
+
+    }
+    .presentacionaViajes{
+        font-size: 20px;
+        font-family:  "Segoe UI", "Optima", Arial, sans-serif;
+        text-align: center;
+
+    }
+
+
+    .banerJapon{ 
+        background-image: url(../images/baners/japonbaner.jpg);
+        margin: 15px 0px 0px 0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 50px;
+        font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
+        color:#ffffff ;
+        font-size: 40px;
+        text-shadow: 2px 3px 2px #b9bebe ;
+        }
+
+    .banerMExico{ 
+            background-image: url(../images/baners/playamexico2.jpg);
+            margin: 15px 0px 0px 0px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 50px;
+            font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
+            color:#ffffff ;
+            font-size: 40px;
+            text-shadow: 2px 3px 2px #b9bebe ;
+            }
+    .banerfrancia{background-image: url(../images/baners/Franciacanales.jpg);
+                margin: 15px 0px 0px 0px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding: 50px;
+                font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
+                color:#ffffff ;
+                font-size: 40px;
+                text-shadow: 2px 3px 2px #b9bebe ;
+                }
+
+.TableroViajesIndex{
+        padding:20px 30px 100px 70px;
+
+}
+
+    #Indexviaje{
+        display: grid;
+        grid-template-areas:
+    "Indextitulo    Indextitulo    Indextitulo   Indextitulo" 
+      ;
+                    grid-template-rows:60px ;
+                    grid-template-columns:300px 300px 300px 300px;
+                    grid-column-gap:10px;
+                    grid-row-gap:100px;}
+    #Indextitulo {
+                        grid-area: Indextitulo;
+                        color: #494947;
+                        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+                        font-size: 40px;}
+      .indexTituloViajes{
+        color: #494947;
+        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+        font-size: 40px;
+        margin: 15px;
+        padding: 10px;
+    }
+      
+         
+tr td.tablaindex{
+    background-color:#ffffff;
+}
+
+
+
+.titulocarrusel{
+    margin: 60px 15px 60px 15px  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
+    color:#ffffff ;
+    font-size: 55px;
+    text-shadow: 2px 3px 2px #555757 ;
+    text-align: center;
+    background-color:  #e9e9ec;
+    border-radius:14px ;
+    border:solid 1px #bbc0c8 ;
+    }
+
+.resgistarse{
+    margin: 15px;
+    padding: 10px;
+    border: solid 1px rgb(177, 177, 177);
+
+}
+
+
+/*------------------------------ fin de estilo de index
+
+-------------------------*/
+

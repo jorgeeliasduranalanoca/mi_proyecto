@@ -1,0 +1,68 @@
+/*----------------------------inicio de estilo paquetes----------------------*/
+.PaquetesTitulo{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+   font-size : 35px;
+   margin: 20px;
+   text-align: center;
+
+}
+h3{
+   color: #68635f;
+   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 35px;
+   }
+
+   tr td.tablaHorariaPacks{ 
+       background-color:rgb(226, 172, 71) ;
+   }
+   tr th.tablaHorariaPacks{ background-color: rgb(226, 172, 71);
+     
+   }
+   table{
+       text-align: center;
+   }
+   
+   .numeros{
+       font-family: none;
+   }
+   .contenedorRow{
+       display: flex;
+   flex-direction: row;
+
+   }
+   .planesRow{
+       margin: 5px;
+       padding: 10px;
+       height: 700px;
+       width: 500px;
+       display: inline-block;
+      }
+
+
+.pagos{
+    background-color: rgb(178, 209, 216);
+    padding: 20px;
+    margin: 20px 15px 70px 15px;
+    border-radius :23px; 
+    .tajetatitulo{
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 25px;
+        font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    }
+    .tarjetas{
+       height: 50px;
+        width: 70px;
+        margin: 15px auto 10px auto;
+        .cuotas{
+            text-align: center;
+            font-family: "Century Gothic", sans-serif;
+            font-size: 11px;
+            margin: 10px;
+            padding: 3px;
+        }
+    }
+}
+
+
+/*----------------------------Fin de estilo paquetes----------------------*/
+
