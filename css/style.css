@@ -7,8 +7,9 @@
   font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
   color: black;
   display: inline-block;
-  font-size: 40px;
-  background-color: #81d2d8; }
+  font-size: 40px; }
+  .inicio .fondo {
+    background-color: #f8cb76; }
 
 .baner {
   background-image: url(../images/japonCastillo.jpg);
@@ -273,6 +274,21 @@ p {
   margin: 5px auto 5px auto; }
 
 /*-------------------------fin estilo about us------------------------------*/
+/*------------------------estilo de clientes------------------------------*/
+.imgDeClientes {
+  width: 90%;
+  height: 200px;
+  border-radius: 15px;
+  border: solid 5px  #89577f; }
+
+.clientesorden {
+  margin: 25px 0px 25px 0px;
+  padding: 0px 10px 0px 10px; }
+
+.Tableroclientes {
+  padding: 50px 0px 50px 0px; }
+
+/*------------------------estilo de clientes------------------------------*/
 /*----------------------------inicio de estilo paquetes----------------------*/
 .PaquetesTitulo {
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -330,18 +346,3 @@ table {
       padding: 3px; }
 
 /*----------------------------Fin de estilo paquetes----------------------*/
-/*------------------------estilo de clientes------------------------------*/
-.imgDeClientes {
-  width: 90%;
-  height: 200px;
-  border-radius: 15px;
-  border: solid 5px  #89577f; }
-
-.clientesorden {
-  margin: 25px 0px 25px 0px;
-  padding: 0px 10px 0px 10px; }
-
-.Tableroclientes {
-  padding: 50px 0px 50px 0px; }
-
-/*------------------------estilo de clientes------------------------------*/
