@@ -1,9 +1,9 @@
-$letrasfooter:25px;
+$letrasfooter:15px;
 
 
 /*------------------------- footer de todas los HTML-------------------------*/
 footer {
-    text-align: center;
+    
     color: #ffffff;
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: $letrasfooter;
@@ -12,7 +12,44 @@ footer {
     background-color: #9dc0ce;
  }
   
+
+.titulosfot{
+  font-size: 25px;
+  text-decoration: underline;
+}
+.datosfot{
+  font-size: 17px;
+  margin: 10px 0px 10px 5px;
+  font-family: none;
+  list-style-type: none;
+  color: #e0e0e0 ;
+  transition: 0.3s;
+  cursor: pointer;
+    
+}
+.datosfot:hover{
+  color: white;
+}
+
+.imgfot{
+  height: 20px;
+  width: 20px;
+  background-color: #9dc0ce;
+
+}
+.margendefot{
+  margin: 20px auto 20px auto;
+}
+
+
   .numeros {
     font-family: none; }
   
+    .final{
+      text-align: center;
+      
+      font-size: 30px;
+      margin :70px 50px 50px 50px;
+      padding: 30px auto 30px auto;
+    }
   /* -------------------------fin de footer de todas los HTML------------------------- */
