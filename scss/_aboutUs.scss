@@ -19,6 +19,7 @@ p {
     color: #525552;
     text-shadow:1px 1px  black ;
   }
+
 .socio{
     border-radius: 100px;
     height: 200px;
@@ -37,15 +38,22 @@ p {
     color: #525552;
     text-shadow:1px 1px  black ;
     text-align: center;
-    margin: 5px auto 5px auto;
+    margin: auto;
    
   }
-  .resgistarse{
+  .sociosnip{
     margin: 15px;
     padding: 10px;
     border: solid 1px rgb(177, 177, 177);
     border-radius: 10px;
     background-color: white ;
+    transition: 0.8s;
+
+
+}
+.sociosnip:hover{
+  background-color: #9dc0ce  ;
+  border: solid 1px white;
 
 }
 

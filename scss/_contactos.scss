@@ -1,3 +1,55 @@
 /*--------------------------------- estilo de contactos-------------------------*/
 
 
+.contactotitle{
+    text-align: center;
+    margin: 40px auto 20px auto;
+    padding: 10px;
+    font-size: 30px;
+    color:rgba(32, 32, 32, 0.527);
+    text-shadow: 2px;
+    text-shadow: black;
+}
+.imagcont{
+    background-color: #e4e4e4;
+    height: 22px;
+    width: 22px;
+
+}
+
+.dirección{
+    font-size: 20px;
+    color: rgba(10, 10, 10, 0.527);
+    padding-bottom: 10px;
+    padding-top: 0px;
+
+}
+.imgcontact{
+    height: 20px;
+    width: 20px;
+    background-color: #9dc0ce;
+}
+.nuevatabla{
+    
+    margin:50px 7px 80px 7px;
+    padding: 5px;
+
+}
+.botontlabla{
+      margin:10px 10px 10px 10px;
+      padding:8px ;
+      background-color:#e4e4e4 ;
+      color: rgb(51, 50, 50);
+      
+      transition: 0.4s;
+      border:1px solid white;
+      cursor: pointer;
+      text-align: center;
+
+}
+
+.botontlabla:hover{
+    background-color: white;
+      color: #1d1d1da2 ;
+      border: solid 1px black;
+}

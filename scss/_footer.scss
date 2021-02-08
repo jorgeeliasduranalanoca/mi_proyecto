@@ -14,11 +14,11 @@ footer {
   
 
 .titulosfot{
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: underline;
 }
 .datosfot{
-  font-size: 17px;
+  font-size: 18px;
   margin: 10px 0px 10px 5px;
   font-family: none;
   list-style-type: none;
@@ -32,14 +32,12 @@ footer {
 }
 
 .imgfot{
-  height: 20px;
-  width: 20px;
+  height: 23px;
+  width: 23px;
   background-color: #9dc0ce;
 
 }
-.margendefot{
-  margin: 20px auto 20px auto;
-}
+
 
 
   .numeros {
@@ -52,4 +50,20 @@ footer {
       margin :70px 50px 50px 50px;
       padding: 30px auto 30px auto;
     }
+
+    .botonfoter{margin:10px 10px 10px 10px;
+      padding:8px ;
+      background-color:#9dc0ce ;
+      color: white;
+      border-color: white;
+      transition: 0.4s;
+      cursor: pointer;
+
+    }
+    .botonfoter:hover{
+      background-color: white;
+      color: #9dc0ce ;
+
+    }
+
   /* -------------------------fin de footer de todas los HTML------------------------- */
