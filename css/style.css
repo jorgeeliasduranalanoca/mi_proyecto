@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px; }
@@ -54,11 +55,11 @@ footer {
   background-color: #9dc0ce; }
 
 .titulosfot {
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: underline; }
 
 .datosfot {
-  font-size: 17px;
+  font-size: 18px;
   margin: 10px 0px 10px 5px;
   font-family: none;
   list-style-type: none;
@@ -70,12 +71,9 @@ footer {
   color: white; }
 
 .imgfot {
-  height: 20px;
-  width: 20px;
+  height: 23px;
+  width: 23px;
   background-color: #9dc0ce; }
-
-.margendefot {
-  margin: 20px auto 20px auto; }
 
 .numeros {
   font-family: none; }
@@ -85,6 +83,19 @@ footer {
   font-size: 30px;
   margin: 70px 50px 50px 50px;
   padding: 30px auto 30px auto; }
+
+.botonfoter {
+  margin: 10px 10px 10px 10px;
+  padding: 8px;
+  background-color: #9dc0ce;
+  color: white;
+  border-color: white;
+  transition: 0.4s;
+  cursor: pointer; }
+
+.botonfoter:hover {
+  background-color: white;
+  color: #9dc0ce; }
 
 /* -------------------------fin de footer de todas los HTML------------------------- */
 /*--------------------------------- estilo de index-------------------------------- */
@@ -223,6 +234,50 @@ tr td.tablaindex {
 
 -------------------------*/
 /*--------------------------------- estilo de contactos-------------------------*/
+.contactotitle {
+  text-align: center;
+  margin: 40px auto 20px auto;
+  padding: 10px;
+  font-size: 30px;
+  color: rgba(32, 32, 32, 0.527);
+  text-shadow: 2px;
+  text-shadow: black; }
+
+.imagcont {
+  background-color: #e4e4e4;
+  height: 22px;
+  width: 22px; }
+
+.dirección {
+  font-size: 20px;
+  color: rgba(10, 10, 10, 0.527);
+  padding-bottom: 10px;
+  padding-top: 0px; }
+
+.imgcontact {
+  height: 20px;
+  width: 20px;
+  background-color: #9dc0ce; }
+
+.nuevatabla {
+  margin: 50px 7px 80px 7px;
+  padding: 5px; }
+
+.botontlabla {
+  margin: 10px 10px 10px 10px;
+  padding: 8px;
+  background-color: #e4e4e4;
+  color: #333232;
+  transition: 0.4s;
+  border: 1px solid white;
+  cursor: pointer;
+  text-align: center; }
+
+.botontlabla:hover {
+  background-color: white;
+  color: #1d1d1da2;
+  border: solid 1px black; }
+
 /*-----------------------------inicio de estilo de About us-------------------------*/
 .borderTitulo {
   margin: 15px;
@@ -258,14 +313,19 @@ p {
   color: #525552;
   text-shadow: 1px 1px  black;
   text-align: center;
-  margin: 5px auto 5px auto; }
+  margin: auto; }
 
-.resgistarse {
+.sociosnip {
   margin: 15px;
   padding: 10px;
   border: solid 1px #b1b1b1;
   border-radius: 10px;
-  background-color: white; }
+  background-color: white;
+  transition: 0.8s; }
+
+.sociosnip:hover {
+  background-color: #9dc0ce;
+  border: solid 1px white; }
 
 /*-------------------------fin estilo about us------------------------------*/
 /*------------------------estilo de clientes------------------------------*/
@@ -318,6 +378,20 @@ table {
   width: 500px;
   display: inline-block; }
 
+@keyframes efecto {
+  0% {
+    color: darkgoldenrod; }
+  15% {
+    color: darkgoldenrod; }
+  25% {
+    color: darkmagenta; }
+  50% {
+    color: #0fc70f; }
+  75% {
+    color: darkslateblue; }
+  100% {
+    color: cyan; } }
+
 .pagos {
   background-color: #b2d1d8;
   padding: 20px;
@@ -327,7 +401,10 @@ table {
     text-align: center;
     margin: 10px auto 10px auto;
     font-size: 25px;
-    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; }
+    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    animation: efecto;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite; }
   .pagos .tarjetas {
     height: 50px;
     width: 70px;
