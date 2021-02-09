@@ -1,42 +1,112 @@
 /*----------------------------inicio de estilo paquetes----------------------*/
-.PaquetesTitulo{
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
-   font-size : 35px;
-   margin: 20px;
-   text-align: center;
 
+.tituloplanes{
+    color: #494947;
+        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+        font-size: 30px;
+        margin: 15px auto 5px auto ;
+        padding: 10px;
+        
 }
-h3{
-   color: #68635f;
-   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 35px;
-   }
+        .presentacionaViajesplanes{
+            font-size: 20px;
+            font-family:  "Segoe UI", "Optima", Arial, sans-serif;
+            text-align: center;
+    
+        }
+    
+.viajesplanes{
+    transition: 0.8s;
+        transform: translateZ(0px);
+        border-radius: 2em 2em 1em 1em;
+        border:solid 0.3px rgb(190, 190, 190);
+        margin: 20px auto 20px auto;
+        
+}
 
-   tr td.tablaHorariaPacks{ 
-       background-color:rgb(226, 172, 71) ;
-   }
-   tr th.tablaHorariaPacks{ background-color: rgb(226, 172, 71);
-     
-   }
-   table{
-       text-align: center;
-   }
-   
-   .numeros{
-       font-family: none;
-   }
-   .contenedorRow{
-       display: flex;
-   flex-direction: row;
+.viajesplanes:hover{
+    background-color:#8bb8cae7 ;
+    
+}
+.imagesplanes{
+        width: 100%;
+        height:200px ;
+        border-radius: 1em 1em 0em 0em;
+        border-bottom:solid 1px black;
+}
+.preciosplanes{
+    margin: 10px 7px 12px 7px;
+    
+    text-shadow: 0.5px 0.5px 0.5px black ;
+}
+.preciosplanes:hover{
+    transition: 0.8s;
+    border-radius: 7px ;
+    cursor: pointer;
+       
+}
 
-   }
-   .planesRow{
-       margin: 5px;
-       padding: 10px;
-       height: 700px;
-       width: 500px;
-       display: inline-block;
-      }
+.grillaplanes{
+    display: grid;
+    position: relative;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 40px 25px 30px 15px;
+    grid-template-areas: 
+    "pais pais"
+    "lugar lugar2"
+    "precio precio2"
+    "exprecio exprecio2";
+    
+    } 
 
+    
+  
+    .paisplan{
+        grid-area:pais ;
+        font-size: 30px;
+        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-weight: bold;
+        text-align:center;
+    }
+     .paisplan2{
+         grid-area: pais2;
+     }
+     .lugarplan{
+         grid-area: lugar;
+         font-weight: bold;
+         font-size: 15px;
+     }
+     .lugarplan2{
+         grid-area: lugar2;
+     }
+     .precioplan{
+         grid-area: precio;
+         font-size: 12px;
+         
+         
+     }
+     .precioplan2{
+         grid-area: precio2;
+         font-size: 14px;
+         text-align: right;
+         font-weight: bold;
+     }
+     .exprecioplan{
+         grid-area: exprecio;
+     }
+     .exprecioplan2{
+         grid-area: exprecio2;
+         color: red;
+         font-size:12px ; 
+         text-align: right;
+         
+         text-decoration:line-through;
+     }
+     .preciosplanes{
+        padding: 7px;
+        
+        border-radius: 0px 0px 7px 7px;
+     }
 
 
 @keyframes efecto{

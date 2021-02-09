@@ -27,9 +27,63 @@
     
     }
     
-   
+   .grilla{
+       display: grid;
+       position: relative;
+       grid-template-columns: 70% 30%;
+       grid-template-rows: 40px 25px 30px 15px;
+       grid-template-areas: 
+       "pais pais"
+       "lugar lugar2"
+       "precio precio2"
+       "exprecio exprecio2";
+       
+       } 
 
+       
      
+       .pais{
+           grid-area:pais ;
+           font-size: 30px;
+           font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+           font-weight: bold;
+           text-align:center;
+       }
+        .pais2{
+            grid-area: pais2;
+        }
+        .lugar{
+            grid-area: lugar;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .lugar2{
+            grid-area: lugar2;
+        }
+        .precio{
+            grid-area: precio;
+            font-size: 12px;
+            
+            
+        }
+        .precio2{
+            grid-area: precio2;
+            font-size: 14px;
+            text-align: right;
+            font-weight: bold;
+        }
+        .exprecio{
+            grid-area: exprecio;
+        }
+        .exprecio2{
+            grid-area: exprecio2;
+            color: red;
+            font-size:12px ; 
+            text-align: right;
+            
+            text-decoration:line-through;
+        }
+
     .imgDeViajes{
         
         width: 100%;
@@ -110,20 +164,7 @@
 
 }
 
-    #Indexviaje{
-        display: grid;
-        grid-template-areas:
-    "Indextitulo    Indextitulo    Indextitulo   Indextitulo" 
-      ;
-                    grid-template-rows:60px ;
-                    grid-template-columns:300px 300px 300px 300px;
-                    grid-column-gap:10px;
-                    grid-row-gap:100px;}
-    #Indextitulo {
-                        grid-area: Indextitulo;
-                        color: #494947;
-                        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
-                        font-size: 40px;}
+  
       .indexTituloViajes{
         color: #494947;
         font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
@@ -133,9 +174,7 @@
     }
       
          
-tr td.tablaindex{
-    background-color:#ffffff;
-}
+
 
 
 
