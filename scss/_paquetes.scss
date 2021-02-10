@@ -1,17 +1,34 @@
 /*----------------------------inicio de estilo paquetes----------------------*/
 
 .tituloplanes{
-    color: #494947;
-        font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
-        font-size: 30px;
-        margin: 15px auto 5px auto ;
-        padding: 10px;
+        
+        margin: 40px auto 0px 10px;
+        font-size: 25px;
+        font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+        animation: oferta;
+        animation-duration: 1.4s;
+        animation-iteration-count: infinite;
         
 }
+.titulooff{
+    margin: 5px auto 20px 10px;
+        font-size: 25px;
+        font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+        
+}
+@keyframes oferta{
+    0%{ color:darkgoldenrod; }
+    15%{ color:darkgoldenrod; }
+    25%{ color:darkmagenta; }
+    50%{color :rgb(15, 199, 15);}
+    75%{ color:darkslateblue; }
+    100%{ color:cyan; }
+}
         .presentacionaViajesplanes{
-            font-size: 20px;
+            font-size: 30px;
             font-family:  "Segoe UI", "Optima", Arial, sans-serif;
-            text-align: center;
+            margin: 40px auto 15px 0px;
+            
     
         }
     
@@ -124,6 +141,8 @@
     padding: 20px;
     margin: 20px 15px 70px 15px;
     border-radius :23px; 
+    
+    
     .tajetatitulo{
         text-align: center;
         margin: 10px auto 10px auto;
@@ -132,7 +151,7 @@
         animation: efecto;
         animation-duration: 1.4s;
         animation-iteration-count: infinite;
-    }
+                }
     .tarjetas{
        height: 50px;
         width: 70px;
