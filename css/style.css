@@ -115,15 +115,13 @@ footer {
   padding: 5px; }
 
 .parrafovideo {
-  font-family: Candara, Calibri, "Segoe", "Segoe UI", Optima, Arial, sans-serif;
+  font-family: Candara, Calibri, "Segoe", "Segoe UI", sans-serif;
   font-size: 20px;
-  padding: 15px;
+  padding: 12px;
   color: black; }
 
-h3 {
-  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  font-size: 25px;
-  color: #272727; }
+.indexvideos {
+  margin: 20px auto 30px auto; }
 
 .grilla {
   display: grid;
@@ -357,32 +355,102 @@ p {
 
 /*-------------------------fin estilo about us------------------------------*/
 /*------------------------estilo de clientes------------------------------*/
-.imgDeClientes {
-  width: 90%;
-  height: 200px;
-  border-radius: 15px;
-  border: solid 2px  #a7a4a6; }
+.clientesgeneral {
+  padding: 20px auto 20px auto;
+  margin: 15px; }
 
-.clientesorden {
-  margin: 25px 0px 25px 0px;
-  padding: 0px 10px 0px 10px; }
+.tablaComentarios {
+  font-size: 25px;
+  padding: 20px auto 20px;
+  border: solid 0.5px grey;
+  margin: 15px;
+  border-radius: 7px;
+  background-color: #ffffffd7; }
 
-.Tableroclientes {
-  padding: 50px 0px 50px 0px; }
+.titulocomentarios {
+  font-size: 25px;
+  margin: 10px auto 10px auto; }
+
+.criticasmargen {
+  margin: 15px 5px auto 5px; }
+
+.imagenclientes {
+  height: 270px;
+  width: 270px;
+  border-radius: 7px;
+  border: solid #9dc0ce 2px;
+  margin-bottom: 15px; }
+
+.margenicono {
+  margin: 0px auto 5px 4px; }
+
+.estrellas:hover {
+  color: #06cc06; }
+
+.botoncliente {
+  margin: 3px 9px 3px 9px;
+  padding: 3px 5px 6px 5px;
+  background-color: #ffffffd7;
+  color: #3e6a70;
+  font-size: 20px;
+  transition: 0.4s;
+  border: 1px solid #222121;
+  cursor: pointer;
+  text-align: center; }
+
+.botoncliente:hover {
+  background-color: #3abd3ada;
+  color: #fdfdfd;
+  border: solid 1px black; }
+
+.iconocalificacion1 {
+  color: rgba(255, 0, 0, 0.746); }
+
+.iconocalificacion2 {
+  color: #e07c2a; }
+
+.iconocalificacion3 {
+  color: rgba(255, 255, 0, 0.801); }
+
+.iconocalificacion4 {
+  color: #00bd00; }
+
+.iconocalificacion5 {
+  color: rgba(0, 255, 170, 0.87); }
 
 /*------------------------estilo de clientes------------------------------*/
 /*----------------------------inicio de estilo paquetes----------------------*/
 .tituloplanes {
-  color: #494947;
-  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  font-size: 30px;
-  margin: 15px auto 5px auto;
-  padding: 10px; }
+  margin: 40px auto 0px 10px;
+  font-size: 25px;
+  font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+  animation: oferta;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite; }
+
+.titulooff {
+  margin: 5px auto 20px 10px;
+  font-size: 25px;
+  font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; }
+
+@keyframes oferta {
+  0% {
+    color: darkgoldenrod; }
+  15% {
+    color: darkgoldenrod; }
+  25% {
+    color: darkmagenta; }
+  50% {
+    color: #0fc70f; }
+  75% {
+    color: darkslateblue; }
+  100% {
+    color: cyan; } }
 
 .presentacionaViajesplanes {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Segoe UI", "Optima", Arial, sans-serif;
-  text-align: center; }
+  margin: 40px auto 15px 0px; }
 
 .viajesplanes {
   transition: 0.8s;
