@@ -1,17 +1,25 @@
    /*--------------------navegador baner e incio de pagina ----------------------*/
 
-
+   
 
    .inicio{
     font-family: 'Bangers', cursive;
     color: black ;
-    display:inline-block;
-    font-size: 70px;
-   display: flexbox;
-   margin-top:5px;
-    
+    background-image: linear-gradient(to right, #e39233, #e59d38, #e8a83e, #e9b344, #ebbe4c, #f6bc64, #fdbc7b, #ffbe91, #ffc1b9, #faccd9, #e9d9e7, #e4e4e4);font-size: 40px;
+    margin: auto;
+    padding: auto;
+   
+}
+.logonip:hover{
+    text-decoration: none;
 
 }
+
+
+
+
+
+
 .baner{ 
 background-image: url(../images/japonCastillo.jpg) ;
 margin: 0px auto 0px auto  ;
@@ -24,18 +32,71 @@ color:#ffffff ;
 font-size: 55px;
 text-shadow: 2px 3px 2px #555757 ;
 text-align: center;
+font-weight: bold;
 }
 
 .ayuda{
 
     border-radius: 30px;
-    display:flexbox;
-    height: 100px;
-    width: 100px;
+    margin-left:-15px ;
+    height: 50px;
+    width: 50px;
+    
 }
 
-.textnav{
-    text-align: left;
+.navcolor{
+    background-color: rgb(255, 255, 255);
+}
+.textonavegador{
+    font-size:20px;
+    color: rgba(100, 108, 110, 0.712);
+    display: block;
+    padding: 5px 20px 5px 1px;
+    transition: 0.6s;
+    
+    font-family: 'Alfa Slab One', cursive;
+    
+   
+}
+.textonavegador:hover{
+    text-decoration: none;
+    color: rgb(219, 142, 53);
+   
+}
+
+.textpacksdown{
+    position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  
+  border-radius: 0.25rem;
+}
+
+.textopacks{
+    font-size:20px;
+    color: rgba(100, 108, 110, 0.712);
+    display: block;
+    padding: 0.5rem 5px;
+    transition: 0.6s;
+    
+    font-family: 'Alfa Slab One', cursive;
+}
+.textopacks:hover{
+    text-decoration: none;
+    color: rgb(219, 142, 53);
+    
 }
 
 .sociales{
