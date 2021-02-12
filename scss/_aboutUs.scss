@@ -6,7 +6,8 @@
 
 .borderTitulo{  
     margin:15px;
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 35px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 35px;
     color: #525552;
     text-shadow:1px 1px  black ;
     text-align: center;
@@ -15,7 +16,9 @@
 
 p {
     margin:15px;
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Nova Cut', cursive;
+     font-size: 20px;
     color: #525552;
     text-shadow:1px 1px  black ;
   }
@@ -26,21 +29,33 @@ p {
     width: 200px;
 }
 .nombreDeSocio{
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 35px;
+  font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
     color: #525552;
     text-shadow:1px 1px  black ;
     margin: 20px;
   }
+ 
 
-  .borderAbout{
+  .borderAbout {
     
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 19px;
     color: #525552;
     text-shadow:1px 1px  black ;
-    text-align: center;
-    margin: auto;
-   
+    text-align: center; 
+    border-radius: 5px;
   }
+    .centro{
+      justify-content: center;
+      align-items: center;
+      align-items: center;
+      font-size: 20px;
+      font-family: 'Archivo Black', sans-serif;
+
+      
+      
+    }
+  
   .sociosnip{
     margin: 15px;
     padding: 10px;

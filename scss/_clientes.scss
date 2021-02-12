@@ -36,9 +36,21 @@
         margin: 0px auto 5px 4px;
     }
     
-    .estrellas:hover{
+    @keyframes estrellas{
+        0%{ color:darkgoldenrod; }
+        20%{ color:darkgoldenrod; }
+        40%{ color:darkmagenta; }
+        60%{color :rgb(15, 199, 15);}
+        80%{ color:darkslateblue; }
+        100%{ color:cyan; }
         
-        color: rgb(6, 204, 6);
+    }
+    .estrellas:hover{
+        animation: estrellas;
+        cursor: pointer;
+        transition: 0.5s;
+        animation-duration: 2s;
+        
     }
 
  .botoncliente{

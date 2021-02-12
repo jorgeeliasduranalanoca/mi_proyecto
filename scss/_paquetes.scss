@@ -153,13 +153,14 @@
         animation-iteration-count: infinite;
                 }
     .tarjetas{
-       height: 50px;
-        width: 70px;
+       height: 40px;
+        width: 60px;
         margin: 15px auto 10px auto;
+        border-radius: 7px;
         .cuotas{
             text-align: center;
-            font-family: "Century Gothic", sans-serif;
-            font-size: 11px;
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 9px;
             margin: 10px;
             padding: 3px;
         }

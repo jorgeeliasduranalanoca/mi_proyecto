@@ -1,5 +1,22 @@
 /*--------------------------------- estilo de index-------------------------------- */
 
+.avisocovid{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 172, 172) ;
+    color: rgb(204, 1, 1);
+    border:solid 0.7px rgb(194, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    
+    padding: 5px 10px 5px 10px;
+    
+    font-size: 20px;
+
+}  
+
 
 .table{
     margin:15px;
@@ -20,6 +37,7 @@
      font-size: 20px;
         padding: 12px;
         color: black;
+        text-align: center;
         
     }
     .indexvideos{
@@ -178,17 +196,17 @@
 
 
 .titulocarrusel{
-    margin: 60px 15px 60px 15px  ;
+    margin: 40px 11px 40px 11px  ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 60px;
-    font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif; 
-    color:#ffffff ;
+    font-family: 'Alfa Slab One', cursive; 
+    color:#ffffffd8 ;
     font-size: 55px;
     text-shadow: 2px 3px 2px #555757 ;
     text-align: center;
-    background-color:  #e9e9ec;
+    background-color:  #b9dcf0;
     border-radius:14px ;
     border:solid 1px #bbc0c8 ;
     }

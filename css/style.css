@@ -114,7 +114,7 @@ footer {
   cursor: pointer; }
 
 .datosfot:hover {
-  color: white; }
+  color: #f6f6da; }
 
 .imgfot {
   height: 23px;
@@ -145,6 +145,19 @@ footer {
 
 /* -------------------------fin de footer de todas los HTML------------------------- */
 /*--------------------------------- estilo de index-------------------------------- */
+.avisocovid {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffacac;
+  color: #cc0101;
+  border: solid 0.7px #c20000;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: 'Alfa Slab One', cursive;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px; }
+
 .table {
   margin: 15px;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -164,7 +177,8 @@ footer {
   font-family: Candara, Calibri, "Segoe", "Segoe UI", sans-serif;
   font-size: 20px;
   padding: 12px;
-  color: black; }
+  color: black;
+  text-align: center; }
 
 .indexvideos {
   margin: 20px auto 30px auto; }
@@ -288,17 +302,17 @@ footer {
   padding: 10px; }
 
 .titulocarrusel {
-  margin: 60px 15px 60px 15px;
+  margin: 40px 11px 40px 11px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 60px;
-  font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
-  color: #ffffff;
+  font-family: 'Alfa Slab One', cursive;
+  color: #ffffffd8;
   font-size: 55px;
   text-shadow: 2px 3px 2px #555757;
   text-align: center;
-  background-color: #e9e9ec;
+  background-color: #b9dcf0;
   border-radius: 14px;
   border: solid 1px #bbc0c8; }
 
@@ -354,7 +368,7 @@ footer {
 /*-----------------------------inicio de estilo de About us-------------------------*/
 .borderTitulo {
   margin: 15px;
-  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 35px;
   color: #525552;
   text-shadow: 1px 1px  black;
@@ -363,7 +377,8 @@ footer {
 
 p {
   margin: 15px;
-  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  padding-top: 10px;
+  font-family: 'Nova Cut', cursive;
   font-size: 20px;
   color: #525552;
   text-shadow: 1px 1px  black; }
@@ -374,8 +389,8 @@ p {
   width: 200px; }
 
 .nombreDeSocio {
-  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  font-size: 35px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
   color: #525552;
   text-shadow: 1px 1px  black;
   margin: 20px; }
@@ -386,7 +401,14 @@ p {
   color: #525552;
   text-shadow: 1px 1px  black;
   text-align: center;
-  margin: auto; }
+  border-radius: 5px; }
+
+.centro {
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Archivo Black', sans-serif; }
 
 .sociosnip {
   margin: 15px;
@@ -431,8 +453,25 @@ p {
 .margenicono {
   margin: 0px auto 5px 4px; }
 
+@keyframes estrellas {
+  0% {
+    color: darkgoldenrod; }
+  20% {
+    color: darkgoldenrod; }
+  40% {
+    color: darkmagenta; }
+  60% {
+    color: #0fc70f; }
+  80% {
+    color: darkslateblue; }
+  100% {
+    color: cyan; } }
+
 .estrellas:hover {
-  color: #06cc06; }
+  animation: estrellas;
+  cursor: pointer;
+  transition: 0.5s;
+  animation-duration: 2s; }
 
 .botoncliente {
   margin: 3px 9px 3px 9px;
@@ -600,13 +639,14 @@ p {
     animation-duration: 1.4s;
     animation-iteration-count: infinite; }
   .pagos .tarjetas {
-    height: 50px;
-    width: 70px;
-    margin: 15px auto 10px auto; }
+    height: 40px;
+    width: 60px;
+    margin: 15px auto 10px auto;
+    border-radius: 7px; }
     .pagos .tarjetas .cuotas {
       text-align: center;
-      font-family: "Century Gothic", sans-serif;
-      font-size: 11px;
+      font-family: 'Alfa Slab One', cursive;
+      font-size: 9px;
       margin: 10px;
       padding: 3px; }
 
