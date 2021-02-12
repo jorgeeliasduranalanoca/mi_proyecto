@@ -180,7 +180,8 @@ footer {
   color: #2e2d2d; }
 
 .indexvideos {
-  margin: 20px auto 30px auto; }
+  margin: 20px auto 30px auto;
+  justify-content: center; }
 
 .grilla {
   display: grid;
